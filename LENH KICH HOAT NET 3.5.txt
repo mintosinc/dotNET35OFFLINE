@@ -1,0 +1,14 @@
+- LỆNH CMD KÍCH HOẠT NET FRAMEWORK 3.5 CHO WINDOWS 10 VÀ 11:
+
+DISM /Online /Enable-Feature /FeatureName:NetFx3 /All /LimitAccess /Source:C:\
+(C có thể thay bằng D, E, F...)
+
+- NẾU CÓ FILE ISO WINDOWS GỐC:
+
+1. Mount file ISO (nhấn đúp chuột).
+2. Nhập lệnh CMD:
+
+dism /online /enable-feature /featurename:NetFx3 /All /Source:f:\sources\sxs\ /LimitAccess
+(f là kí tự ổ vừa Mount)
+
+--- QUANGHUYBLOG ---
